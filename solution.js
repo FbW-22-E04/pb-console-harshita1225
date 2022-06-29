@@ -24,7 +24,7 @@ const personInfo =["Name-Harshita","Surname-Joshi", "age30", "dob-25 Dec", "city
 console.log(personInfo);
 
 
-console.log('My name is '+firstName,'My last name is '+lastName,'i live in '+myProfile.city,'i am',+myProfile.age,'years old.','i am a ', +myProfile.job,'by profession');
+console.log('My name is '+firstName,'My last name is '+lastName,'i live in '+myProfile.city,'i am',myProfile.age,'years old.','i works as ', myProfile.job,'by profession');
 
 console.log( personInfo[0], personInfo[1], 'i live in',personInfo[4]);
 
